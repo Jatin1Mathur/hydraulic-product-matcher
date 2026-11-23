@@ -1,0 +1,40 @@
+# docker compose up --build
+#   API: http://localhost:8000/docs     UI: http://localhost:8501
+# Optional: run Ollama on your machine and set EMBEDDER=ollama / EXTRACTOR=llm below.
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: matcher
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build: .
+    environment: &env
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@db:5432/matcher
+      EMBEDDER: ${EMBEDDER:-hashing}
+      EXTRACTOR: ${EXTRACTOR:-regex}
+      OLLAMA_URL: http://host.docker.internal:11434
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    command: sh -c "hpm init-db && hpm ingest data/datasheets && uvicorn hpm.api:app --host 0.0.0.0 --port 8000"
+    ports: ["8000:8000"]
+    depends_on:
+      db: { condition: service_healthy }
+
+  ui:
+    build: .
+    environment: *env
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    command: streamlit run ui/app.py --server.address 0.0.0.0 --server.port 8501
+    ports: ["8501:8501"]
+    depends_on:
+      api: { condition: service_started }
+
+volumes:
+  pgdata:

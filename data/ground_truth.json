@@ -1,0 +1,339 @@
+{
+  "products": {
+    "OW-A28": {
+      "brand": "Ostwerk",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 28,
+      "max_pressure": 350,
+      "cont_pressure": 280,
+      "max_speed": 3000,
+      "weight": 15.0
+    },
+    "OW-A45": {
+      "brand": "Ostwerk",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 45,
+      "max_pressure": 350,
+      "cont_pressure": 280,
+      "max_speed": 2600,
+      "weight": 21.0
+    },
+    "OW-A45C": {
+      "brand": "Ostwerk",
+      "type": "axial_piston_pump",
+      "circuit": "closed",
+      "mounting": "SAE B",
+      "displacement": 45,
+      "max_pressure": 450,
+      "cont_pressure": 400,
+      "max_speed": 3300,
+      "weight": 38.0
+    },
+    "OW-A71": {
+      "brand": "Ostwerk",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE C",
+      "displacement": 71,
+      "max_pressure": 400,
+      "cont_pressure": 350,
+      "max_speed": 2400,
+      "weight": 34.0
+    },
+    "OW-A100": {
+      "brand": "Ostwerk",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE C",
+      "displacement": 100,
+      "max_pressure": 400,
+      "cont_pressure": 350,
+      "max_speed": 2200,
+      "weight": 47.0
+    },
+    "OW-G8": {
+      "brand": "Ostwerk",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 8,
+      "max_pressure": 280,
+      "cont_pressure": 250,
+      "max_speed": 4000,
+      "weight": 3.1
+    },
+    "OW-G16": {
+      "brand": "Ostwerk",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 16,
+      "max_pressure": 280,
+      "cont_pressure": 250,
+      "max_speed": 3500,
+      "weight": 3.9
+    },
+    "OW-G22": {
+      "brand": "Ostwerk",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 22.5,
+      "max_pressure": 250,
+      "cont_pressure": 220,
+      "max_speed": 3000,
+      "weight": 4.6
+    },
+    "OW-G32": {
+      "brand": "Ostwerk",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 32,
+      "max_pressure": 210,
+      "cont_pressure": 190,
+      "max_speed": 3000,
+      "weight": 5.8
+    },
+    "OW-D6": {
+      "brand": "Ostwerk",
+      "type": "directional_valve",
+      "size": "NG6",
+      "max_pressure": 350,
+      "max_flow": 80,
+      "weight": 1.5
+    },
+    "OW-D6H": {
+      "brand": "Ostwerk",
+      "type": "directional_valve",
+      "size": "NG6",
+      "max_pressure": 350,
+      "max_flow": 120,
+      "weight": 1.7
+    },
+    "OW-D10": {
+      "brand": "Ostwerk",
+      "type": "directional_valve",
+      "size": "NG10",
+      "max_pressure": 315,
+      "max_flow": 160,
+      "weight": 4.3
+    },
+    "NH-P30": {
+      "brand": "Norhydra",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 30,
+      "max_pressure": 345,
+      "cont_pressure": 276,
+      "max_speed": 2900,
+      "weight": 15.0
+    },
+    "NH-P48": {
+      "brand": "Norhydra",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 48,
+      "max_pressure": 345,
+      "cont_pressure": 276,
+      "max_speed": 2600,
+      "weight": 22.0
+    },
+    "NH-P74": {
+      "brand": "Norhydra",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE C",
+      "displacement": 74,
+      "max_pressure": 400,
+      "cont_pressure": 345,
+      "max_speed": 2300,
+      "weight": 35.0
+    },
+    "NH-G16": {
+      "brand": "Norhydra",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 16.4,
+      "max_pressure": 248,
+      "cont_pressure": 207,
+      "max_speed": 3300,
+      "weight": 4.1
+    },
+    "NH-V03": {
+      "brand": "Norhydra",
+      "type": "directional_valve",
+      "size": "NG6",
+      "max_pressure": 345,
+      "max_flow": 79.5,
+      "weight": 1.6
+    },
+    "NH-V05": {
+      "brand": "Norhydra",
+      "type": "directional_valve",
+      "size": "NG10",
+      "max_pressure": 317,
+      "max_flow": 151,
+      "weight": 4.5
+    },
+    "VT-AX45": {
+      "brand": "Vantek",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 46,
+      "max_pressure": 350,
+      "cont_pressure": 280,
+      "max_speed": 2700,
+      "weight": 21.5
+    },
+    "VT-AX45CL": {
+      "brand": "Vantek",
+      "type": "axial_piston_pump",
+      "circuit": "closed",
+      "mounting": "SAE B",
+      "displacement": 46,
+      "max_pressure": 420,
+      "cont_pressure": 380,
+      "max_speed": 3200,
+      "weight": 37.0
+    },
+    "VT-AX100": {
+      "brand": "Vantek",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE C",
+      "displacement": 98,
+      "max_pressure": 380,
+      "cont_pressure": 330,
+      "max_speed": 2200,
+      "weight": 48.0
+    },
+    "VT-G19": {
+      "brand": "Vantek",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 19.5,
+      "max_pressure": 275,
+      "cont_pressure": 240,
+      "max_speed": 3200,
+      "weight": 4.2
+    },
+    "VT-G22": {
+      "brand": "Vantek",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 22,
+      "max_pressure": 250,
+      "cont_pressure": 220,
+      "max_speed": 2800,
+      "weight": 4.5
+    },
+    "VT-D6": {
+      "brand": "Vantek",
+      "type": "directional_valve",
+      "size": "NG6",
+      "max_pressure": 315,
+      "max_flow": 100,
+      "weight": 1.6
+    },
+    "CF-AP28": {
+      "brand": "Caldera",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 25,
+      "max_pressure": 315,
+      "cont_pressure": 250,
+      "max_speed": 3100,
+      "weight": 14.0
+    },
+    "CF-AP71": {
+      "brand": "Caldera",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE C",
+      "displacement": 71,
+      "max_pressure": 380,
+      "cont_pressure": 320,
+      "max_speed": 2400,
+      "weight": 33.0
+    },
+    "CF-AP100": {
+      "brand": "Caldera",
+      "type": "axial_piston_pump",
+      "circuit": "open",
+      "mounting": "SAE C",
+      "displacement": 105,
+      "max_pressure": 400,
+      "cont_pressure": 350,
+      "max_speed": 2100,
+      "weight": 49.0
+    },
+    "CF-GP8": {
+      "brand": "Caldera",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE A",
+      "displacement": 8.2,
+      "max_pressure": 270,
+      "cont_pressure": 240,
+      "max_speed": 3800,
+      "weight": 3.0
+    },
+    "CF-GP32": {
+      "brand": "Caldera",
+      "type": "external_gear_pump",
+      "circuit": "open",
+      "mounting": "SAE B",
+      "displacement": 31,
+      "max_pressure": 200,
+      "cont_pressure": 180,
+      "max_speed": 2800,
+      "weight": 5.9
+    },
+    "CF-DV10": {
+      "brand": "Caldera",
+      "type": "directional_valve",
+      "size": "NG10",
+      "max_pressure": 320,
+      "max_flow": 150,
+      "weight": 4.4
+    }
+  },
+  "matches": {
+    "NH-P30": "OW-A28",
+    "NH-P48": "OW-A45",
+    "NH-P74": "OW-A71",
+    "NH-G16": "OW-G16",
+    "NH-V03": "OW-D6",
+    "NH-V05": "OW-D10",
+    "VT-AX45": "OW-A45",
+    "VT-AX45CL": "OW-A45C",
+    "VT-AX100": "OW-A100",
+    "VT-G19": "OW-G16",
+    "VT-G22": "OW-G22",
+    "VT-D6": "OW-D6H",
+    "CF-AP28": "OW-A28",
+    "CF-AP71": "OW-A71",
+    "CF-AP100": "OW-A100",
+    "CF-GP8": "OW-G8",
+    "CF-GP32": "OW-G32",
+    "CF-DV10": "OW-D10"
+  },
+  "hard_cases": {
+    "VT-AX45CL": "closed circuit: the open-circuit OW-A45 has the same size but cannot replace it",
+    "VT-G19": "closest size OW-G22 is rated 250 bar < 275 bar; OW-G16 is smaller but meets pressure",
+    "VT-D6": "OW-D6 has the right interface but only 80 L/min < 100 L/min; OW-D6H is required",
+    "CF-AP28": "max speed 3100 rpm is above OW-A28's 3000 rpm, but within the 5 % tolerance"
+  }
+}

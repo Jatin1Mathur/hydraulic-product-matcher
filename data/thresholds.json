@@ -1,0 +1,5 @@
+{
+  "extraction_accuracy": 0.98,
+  "matching_top1": 0.94,
+  "retrieval_hit3": 0.9
+}

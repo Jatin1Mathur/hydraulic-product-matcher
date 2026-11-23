@@ -1,0 +1,110 @@
+[
+  {
+    "question": "What cleanliness level does the VT-AX45 require?",
+    "expected_docs": [
+      "VT-AX45.pdf"
+    ]
+  },
+  {
+    "question": "Peak pressure of NH-P48",
+    "expected_docs": [
+      "NH-P48.pdf"
+    ]
+  },
+  {
+    "question": "Maximum flow of VT-D6",
+    "expected_docs": [
+      "VT-D6.pdf"
+    ]
+  },
+  {
+    "question": "Mounting flange of CF-AP71",
+    "expected_docs": [
+      "CF-AP71.pdf"
+    ]
+  },
+  {
+    "question": "Which valve interface does the NH-V05 use?",
+    "expected_docs": [
+      "NH-V05.pdf"
+    ]
+  },
+  {
+    "question": "Fluid temperature range for OW-G16",
+    "expected_docs": [
+      "OW-G16.pdf"
+    ]
+  },
+  {
+    "question": "Which Norhydra product has a horsepower limiter?",
+    "expected_docs": [
+      "NH-P74.pdf"
+    ]
+  },
+  {
+    "question": "Which pump includes a boost pump for closed loop hydrostatic drives?",
+    "expected_docs": [
+      "VT-AX45CL.pdf",
+      "OW-A45C.pdf"
+    ]
+  },
+  {
+    "question": "Which pump has an integrated charge pump for a hydrostatic transmission?",
+    "expected_docs": [
+      "OW-A45C.pdf",
+      "VT-AX45CL.pdf"
+    ]
+  },
+  {
+    "question": "high-flow 4/3 spool valve with wet-pin solenoids",
+    "expected_docs": [
+      "OW-D6H.pdf"
+    ]
+  },
+  {
+    "question": "viscosity range given in SUS",
+    "expected_docs": [
+      "NH-G16.pdf",
+      "NH-P30.pdf",
+      "NH-P48.pdf",
+      "NH-P74.pdf",
+      "NH-V03.pdf",
+      "NH-V05.pdf"
+    ]
+  },
+  {
+    "question": "ISO 4406 19/17/14",
+    "expected_docs": [
+      "VT-AX45.pdf",
+      "VT-AX45CL.pdf",
+      "VT-AX100.pdf",
+      "VT-G19.pdf",
+      "VT-G22.pdf",
+      "VT-D6.pdf"
+    ]
+  },
+  {
+    "question": "Directional spool valve with emergency manual override, CETOP 5",
+    "expected_docs": [
+      "CF-DV10.pdf"
+    ]
+  },
+  {
+    "question": "Gear pump with cast aluminium housing",
+    "expected_docs": [
+      "NH-G16.pdf"
+    ]
+  },
+  {
+    "question": "Which pump offers a pressure cut-off and torque limiter?",
+    "expected_docs": [
+      "VT-AX100.pdf"
+    ]
+  },
+  {
+    "question": "electrohydraulic control with constant pressure regulator, 25 cm3",
+    "expected_docs": [
+      "CF-AP28.pdf"
+    ]
+  }
+]
